@@ -6,6 +6,7 @@ interface User {
     // startTrail: ()=>string
     startTrail():number // it can be return anything else in the list of users;
     getCoupon(couponname: string, value: number): number // it can be return anything else in the list of users
+    //couponname: string, value: number // it can be return anything else in the list of getCoupon methods for the user to get the coupon information from the user and the user should be able to get the coupon information from the user;
 }
 
 //assing values according above to the User object;
