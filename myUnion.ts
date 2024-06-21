@@ -45,7 +45,8 @@ getId("123")
 
 
 //Array in nuions;
+
+
 const data: number[] = [125]
 const data2: string[] = ["1", "2", "3", "4", "5", "6"] 
-const data3: (number | string | boolean) [] = ["1", "2", "3", "4", 5, 58, 896, true, false];
-
+const data3: (number | string ) [] = ["1", "2", "3", "4", 5, 58, 896];
