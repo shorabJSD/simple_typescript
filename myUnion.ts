@@ -49,4 +49,17 @@ getId("123")
 
 const data: number[] = [125]
 const data2: string[] = ["1", "2", "3", "4", "5", "6"] 
-const data3: (number | string ) [] = ["1", "2", "3", "4", 5, 58, 896];
+const data3: (number | string | boolean )[] = ["1", "2", "3", "4", 5, 58, 896, true, false]; //instead declear any of specific notation , we can use [any] notation; 
+
+
+//providing an example of plain tikect anyone who can choose the sit type of their needed.
+let seatAllotment: "Aisle" | "Middle" | "Window";
+
+seatAllotment = "Aisle";
+
+// seatAllotment = "Business Class"; you cant change this to your own value here or use the default value  of "Business Class" instead;
+
+
+
+
+
