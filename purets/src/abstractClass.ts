@@ -18,7 +18,7 @@ class InstagramApp extends TakePhoto {
      ){
        super(cameraMode, imageSize)
      }
-    
+
     getSepia(): void{
         console.log("Sepia is running here!")
     }
