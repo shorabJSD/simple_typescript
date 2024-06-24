@@ -78,9 +78,6 @@ function anotherFunction<T, U extends Database>(valueOne: T, valueTwo: U ): obje
 
 anotherFunction(2, {connections: "sjdofjowej", userName: "sourovakka", password: "dofjoeiiwe"});
 
-
-
-
 interface Quize{
        name: string,
        type: string
